@@ -18,14 +18,21 @@ const MyWork = () => {
               <img key={index} src={work.w_img} alt="" />
               <h3>{work.w_name}</h3>
               <p>{work.w_desc}</p>
-              <a href={work.w_link}>
-                  <div className="mywork-showmore">
-                      
-                        <p>GitHub Repo</p>
-                        <img src={arrow_icon} alt=""/>
-                      
-                  </div>
+              <div className="mywork_link">
+                  <a href={work.w_link}>
+                      <div className="mywork-showmore">
+                            <p>GitHub Repo</p>
+                            <img src={arrow_icon} alt=""/>
+                      </div>
                   </a>
+                  <a href={work.w_live}>
+                      <div className="mywork-showmore">
+                            <p>Live Link</p>
+                            <img src={arrow_icon} alt=""/>
+                      </div>
+                  </a>
+              </div>
+                  
               </div> 
             )
             })}

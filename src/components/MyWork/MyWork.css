@@ -28,6 +28,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 40px;
 }
 
@@ -96,6 +97,12 @@
     cursor: pointer; */
 }
 
+.mywork_link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .mywork-container a{
     text-decoration: none;
     color: white;
@@ -124,7 +131,7 @@
         font-weight: 600;
     }
 
-    mywork-title img{
+    .mywork-title img{
         width: 130px;
         margin-right: -20px;
     }
