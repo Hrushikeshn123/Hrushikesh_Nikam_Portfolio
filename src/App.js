@@ -14,7 +14,6 @@ return(
   <div className='App'>
     <Navbar/>
     <Hero/>
-    
     <Skills/>
     <MyWork/>
     <Education/>
