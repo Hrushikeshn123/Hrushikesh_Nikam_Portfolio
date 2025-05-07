@@ -141,10 +141,15 @@
 
 @media(max-width:768px){
     .contact{
-        gap: 50px;
+        gap: 10px;
         margin: 50px 70px;
-        align-items: start;
+        align-items: center;
 
+    }
+
+    .contact-section{
+        display: flex;
+        align-items:flex-start;
     }
 
     .contact-title h1{
