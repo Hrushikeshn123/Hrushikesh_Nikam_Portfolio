@@ -21,21 +21,19 @@ const Navbar = ()=>{
             <div className='navbar'>
                 <div className="portfolio-title">
                   <h1>Portfolio</h1>
-                  {/* <img src={theme_pattern} alt=''/> */}
                 </div>       
-                {/* <img src={logo} alt="" /> */}
+                <div>
                 <img src={menu_open} onClick={openMenu} alt=""  className='nav-mob-open'/>
-                <ul  ref={menuRef} className='nav-menu'>
+                  <ul  ref={menuRef} className='nav-menu'>
                     <img src={menu_close} onClick={closeMenu} alt="" className="nav-mob-close"/>
                     <li><AnchorLink className='anchor-link' href='#home'><p onClick={()=>setMenu("home")}>About Me</p></AnchorLink></li>
                     <li><AnchorLink className='anchor-link' offset={120} href="#skill_scroll"><p onClick={()=>setMenu("about")}>Skills</p></AnchorLink></li>
                     <li><AnchorLink className='anchor-link' offset={120} href="#project_scroll"><p onClick={()=>setMenu("services")}>Projects</p></AnchorLink></li>
                     <li><AnchorLink className='anchor-link' offset={120} href="#education_scroll"><p onClick={()=>setMenu("services")}>Education</p></AnchorLink></li>
                     <li><AnchorLink className='anchor-link' offset={120} href="#achieve_scroll"><p onClick={()=>setMenu("services")}>Achievements</p></AnchorLink></li>
-
-                    {/* <li><AnchorLink className='anchor-link' offset={50} href="#work"><p onClick={()=>setMenu("work")}>Portfolio</p></AnchorLink></li> */}
-                    {/* <li><AnchorLink className='anchor-link' offset={50} href="#contact"><p onClick={()=>setMenu("contact")}>Contact</p>{menu==="contact"? <img src={underline} alt=""/>: <></>}</AnchorLink></li> */}
                 </ul>
+                </div>
+                
                 <div className='nav-connect'><AnchorLink className='anchor-link' offset={120} href="#contact">Connect with me</AnchorLink></div>
             </div>
       </div>  

@@ -8,9 +8,9 @@ import Services_Data from '../../assets/services_data'
 const Skills = ()=>{
     return(
       <div id='skill_scroll' className='container'>
-        {/* <div className="wrapper"> */}
+        
           <div className="title">Skills</div>
-          {/* <div className="desc">Here are some of my skills</div> */}
+        
           <div className="skillscontainer">
             {
               Services_Data.map((skill)=>(
@@ -30,7 +30,6 @@ const Skills = ()=>{
               ))
             }
           </div>
-        {/* </div> */}
       </div>
       
 

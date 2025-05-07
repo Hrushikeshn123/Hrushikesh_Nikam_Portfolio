@@ -14,10 +14,9 @@ return(
   <div className='App'>
     <Navbar/>
     <Hero/>
-    
+    <Skills/>
 
     <MyWork/>
-    <Skills/>
     <Education/>
     <Achievements/>
      <Contact/> 
